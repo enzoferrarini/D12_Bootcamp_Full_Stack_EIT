@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/estilos.css">
+    <title>Tu Entrada</title>
+</head>
+<body>
+    
+    <div class="nav-bar">        
+        <p id="idTitle">Tu Entrada!</p>       
+        <div class="nav-links">
+            <a href="#">Próximos Recitales</a>
+            <a href="#">Contacto</a>
+            <a href="#">Sobre nosotros</a>
+            <div>
+                <img src="./img/carrito.svg" alt="carrito image">
+            </div>
+        </div>                     
+    </div>
+    <div class="banner">
+    </div>
+    <div class="search-containter">
+        <div class="searcher">
+            <input placeholder="Buscar Evento"></input>
+            <input placeholder="Buscar Localidad"></input>
+            <input placeholder="Buscar Categoría"></input>
+            <input placeholder="Seleccione Fecha..."></input>
+        </div>
+    </div>
+    <div class="destacados">
+        <div class="card">
+            <div class="header-card">
+                <img src="./img/divididos.jpg" >
+            </div>
+            <div class="body-card">
+                <p class="titulo-card">
+                    DIVIDIDOS
+                </p>
+                <p class="desc-card">
+                    Gran Rex<br>
+                    18/03/2024 
+                </p>
+            </div>
+            <div class="footer-card">
+                <button>Verificar Disponibilidad</button>
+            </div>
+        </div>
+        <div class="card">
+            <div class="header-card">
+                <img src="./img/larenga.jpg" >
+            </div>
+            <div class="body-card">
+                <p class="titulo-card">
+                    LA RENGA
+                </p>
+                <p class="desc-card">
+                    Teato Obras<br>
+                    25/02/2024 
+                </p>
+            </div>
+            <div class="footer-card">
+                <button>Verificar Disponibilidad</button>
+            </div>
+        </div>
+        <div class="card">
+            <div class="header-card">
+                <img src="./img/acdc.jpg" >
+            </div>
+            <div class="body-card">
+                <p class="titulo-card">
+                    AC-DC
+                </p>
+                <p class="desc-card">
+                    Estadio River Plate<br>
+                    05/04/2024 
+                </p>
+            </div>
+            <div class="footer-card">
+                <button>Verificar Disponibilidad</button>
+            </div>
+        </div>
+        <div class="card">
+            <div class="header-card">
+                <img src="./img/abel.jpg" >
+            </div>
+            <div class="body-card">
+                <p class="titulo-card">
+                    ABEL PINTOS
+                </p>
+                <p class="desc-card">
+                    Gran Rex<br>
+                    22/07/2024 
+                </p>
+            </div>
+            <div class="footer-card">
+                <button>Verificar Disponibilidad</button>
+            </div>
+        </div>
+    </div>
+    <div class="juego">
+        <h1>Jugando con los Círculos</h1>
+    </div>
+    <div class="juego-contenedor-general">
+        <div class="juego-container">
+            <div class="comandos-container">
+                <div id="idSelectorColor" class="color-container">
+                    <!-- ACA VA EL SELECTOR CREADO DINAMICAMENTE --> 
+                </div>
+                <div class="color-container">
+                    <input type="checkbox" name="idChkSuperpuesto" id="idChkSuperpuesto">
+                    <label for="idChkSuperpuesto">Modo Superpuesto</label>
+                </div>
+            </div>
+            <div class="circulos">
+                <div id="c1" class="circle c1">
+                    <div id="c2" class="circle c2">
+                        <div id="c3" class="circle c3">
+                            <div id="c4" class="circle c4"></div>
+                        </div>
+                    </div>
+                </div>        
+            </div>
+            <button>Resetear juego</button>
+        </div>
+    </div>
+    
+    <div class="footer">
+         <span>- Inspirado en <a href="https://www.mercadolibre.com.ar/" target="_blank" >Mercado Libre</a></span>
+    </div>
+    
+    <script src="./js/main.js"></script>
+</body>
+</html>
